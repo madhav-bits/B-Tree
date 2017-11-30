@@ -16,7 +16,7 @@ void searchInt(bPTreeNode* temp1, double val){										//Takes root, required d
 		  j=0;
 		  while(j<temp1->valPair[i].length()){										//Printing the valPair into output file in a desired way.
             if(temp1->valPair[i].compare(j,1,",")==0)
-              outfile<<", ";
+              outfile<<",";
             else
               outfile<<temp1->valPair[i][j];
             j++;

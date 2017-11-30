@@ -52,7 +52,7 @@ bPTreeNode* init(){
 }
 
 
-int main(int argc, char* argv{}){
+int main(int argc, char* argv[]){
   
   ifstream myfile;																		//To read te input.txt file.
   myfile.open(argv[1]);
